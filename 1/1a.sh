@@ -32,7 +32,7 @@ fi
 
 echo
 echo "Menjadikan '$USER' sebagai administrator..."
-printf '2\nq\n' | chntpw -u "$USER" "$SAM"
+chntpw -u "$USER" "$SAM"
 
 echo
-echo "Selesai. Periksa output chntpw
+echo "Selesai. Periksa output chntpw"
